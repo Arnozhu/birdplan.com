@@ -3,14 +3,16 @@
  */
 window.onload = function () {
     var obtn = document.getElementById('video1');
-
+    var obtnb = document.getElementById('video2');
     var obtnc = document.getElementById('video3');
-
+    var obtnd = document.getElementById('video4');
     var ovideo = document.getElementById('video-btn');
     var oatn = document.getElementById('video-area');
-
     var myVideo = document.getElementById('myVideo');
     var myVideob = document.getElementById('myVideob');
+    var myVideod = document.getElementById('myVideod');
+    var myVideoc = document.getElementById('myVideoc');
+    var oshut = document.getElementById('video-shut');
 
     obtn.addEventListener("click", function () {
         ovideo.style.display = 'block';
@@ -20,9 +22,6 @@ window.onload = function () {
         myVideo.play();
     }, false)
 
-    var myVideo = document.getElementById('myVideo');
-    var myVideob = document.getElementById('myVideob');
-    var obtnb = document.getElementById('video2');
     obtnb.addEventListener("click", function () {
         ovideo.style.display = 'block';
         myVideo.style.display = 'none';
@@ -31,8 +30,6 @@ window.onload = function () {
         myVideob.play();
     }, false)
 
-    var myVideoc = document.getElementById('myVideoc');
-    var obtnc = document.getElementById('video3');
     obtnc.addEventListener("click", function () {
         ovideo.style.display = 'block';
         myVideo.style.display = 'none';
@@ -41,9 +38,7 @@ window.onload = function () {
         myVideoc.play();
     }, false)
 
-    var obtnd = document.getElementById('video4');
-    var myVideod = document.getElementById('myVideod');
-    var myVideo = document.getElementById('myVideo');
+
     obtnd.addEventListener("click", function () {
         ovideo.style.display = 'block';
         myVideo.style.display = 'none';
@@ -52,12 +47,7 @@ window.onload = function () {
         myVideod.play();
     }, false)
 
-
-
-
-    var oshut = document.getElementById('video-shut');
     oshut.addEventListener("click", function () {
-
         ovideo.style.display = 'none';
         myVideob.style.display = 'block';
         myVideo.style.display = 'block';
