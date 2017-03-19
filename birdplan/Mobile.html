@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>移动端微信广告项目测试</title>
+
+
+    <script>
+        var pixclPatio = 1 / window.devicePixelRatio;
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixclPatio + ',minimum-scale=' + pixclPatio + ',maximum-scale=' + pixclPatio + '" >');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 16 + 'px';
+    </script>
+    <script src="js/mobile.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/mobile.css">
+
+</head>
+<body style="overflow-x: hidden">
+<div class="header" id="header">
+    <div class="wrap" id="wrap">
+        <video class="video" id="video" src="http://oi98t21f4.bkt.clouddn.com/gbqq.mp4" preload="auto" currenttime=0
+               webkit-playsinline="true" playsinline height="120%" width="100%" poster="move/gbqq.JPG" loop
+               x-webkit-airplay="true">
+        </video>
+    </div>
+    <div id="a" class="main">
+
+    </div>
+    <div id="b" class="main-2">
+
+    </div>
+
+    <div class="main-3">
+        <a class="subnav" href="#subnav">
+
+        </a>
+    </div>
+
+    <div class="nav">
+        <p>
+
+            歌曲名：告白气球
+            <br>
+            演唱者：周杰伦
+            <br>
+            点击气球可播放
+
+        </p>
+    </div>
+</div>
+<div class="footer" id="footer">
+    <div class="content" id="content">
+        <video class="video-two" id="video-two" src="http://oi98t21f4.bkt.clouddn.com/moshou.mp4" preload="auto" currenttime=0
+               webkit-playsinline="true" playsinline height="120%" width="100%" poster="move/3.jpg" loop
+               x-webkit-airplay="true">
+
+        </video>
+    </div>
+
+    <div class="foot" id="subnav">
+
+    </div>
+
+    <div class="scroll">
+        <a class="" href="#header">⇧</a>
+    </div>
+
+    <div class="friendlink">
+        <a href="http://www.birdplan.com/shop.html">进入首页</a>
+    </div>
+
+    <div class="guild" id="guild">
+
+    </div>
+
+</div>
+<div class="sidebar" id="sidebar">
+
+    <p>安静</p>
+
+</div>
+</body>
+</html>

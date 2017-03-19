@@ -12,12 +12,13 @@
         var pageWidth = html.getBoundingClientRect().width;
         html.style.fontSize = pageWidth / 16 + 'px';
     </script>
-    <script src="js/main.js" ></script>
+    <script src="js/main.js"></script>
 </head>
-<body style=" overflow: hidden;" >
+<body style=" overflow:auto;">
 <header id="header">
     <nav class="nav nav-fix">
         <div class="none">
+            <a  href="Mobile.html">移动端微信广告</a>
         </div>
         <h2 class="title ">
             <a class="title-background" href="#">首页</a>
@@ -33,7 +34,9 @@
 </header>
 <div class="content">
     <div class="main">
-        <video src="http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%9F%B3%E4%B9%90%E8%B7%B3%E5%8A%A8.mp4" width=100% height=120% autoplay loop>
+        <video src="http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%9F%B3%E4%B9%90%E8%B7%B3%E5%8A%A8.mp4"
+               width=100% height=120% autoplay loop controls poster="image/6.JPG" currenttime=0 webkit-playsinline="true"
+               playsinline x-webkit-airplay="true">
 
         </video>
     </div>
@@ -51,16 +54,23 @@
 <div class="video-btn" id="video-btn">
 
     <div class="video-area" id="video-area">
-        <video id='myVideo'  class='myVideo' src='http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%9F%B3%E4%B9%90%E5%85%A8.mp4' width=100% height=120% loop></video>
-        <video id='myVideob' class='myVideob' src='http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%BA%A6%E7%94%B0%E5%B9%BF%E5%91%8A.mp4' width=100% height=120% loop></video>
-        <video id='myVideoc' class='myVideoc' src='http://oi98t21f4.bkt.clouddn.com/%E5%B0%8F%E9%BB%84%E4%BA%BA%E5%B9%BF%E5%91%8A.mp4' width=100% height=120% loop></video>
-        <video id='myVideod' class='myVideod' src='http://oi98t21f4.bkt.clouddn.com/%E9%AD%94%E5%85%BD%E5%B9%BF%E5%91%8A%E9%87%8D%E5%81%9A.mp4' width=100% height=120% loop></video>
+        <video id='myVideo' class='myVideo'
+               src='http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%9F%B3%E4%B9%90%E5%85%A8.mp4' width=100%
+               height=120% loop currenttime=0 webkit-playsinline="true" playsinline x-webkit-airplay="true"></video>
+        <video id='myVideob' class='myVideob'
+               src='http://oi98t21f4.bkt.clouddn.com/%E9%A6%96%E9%A1%B5%E9%BA%A6%E7%94%B0%E5%B9%BF%E5%91%8A.mp4'
+               width=100% height=120% loop currenttime=0 webkit-playsinline="true" playsinline
+               x-webkit-airplay="true"></video>
+        <video id='myVideoc' class='myVideoc'
+               src='http://oi98t21f4.bkt.clouddn.com/%E5%B0%8F%E9%BB%84%E4%BA%BA%E5%B9%BF%E5%91%8A.mp4' width=100%
+               height=120% loop currenttime=0 webkit-playsinline="true" playsinline x-webkit-airplay="true"></video>
+        <video id='myVideod' class='myVideod'
+               src='http://oi98t21f4.bkt.clouddn.com/%E9%AD%94%E5%85%BD%E5%B9%BF%E5%91%8A%E9%87%8D%E5%81%9A.mp4'
+               width=100% height=120% loop currenttime=0 webkit-playsinline="true" playsinline
+               x-webkit-airplay="true"></video>
 
         <a class='video-shut' id='video-shut' href='#'>(跳过)</a>
     </div>
-
 </div>
-
-
 </body>
 </html>

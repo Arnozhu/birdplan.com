@@ -1,0 +1,302 @@
+
+body, div, p, image, video {
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration:none;
+    color:gainsboro;
+    font-family: cursive;
+}
+
+body {
+    width: 16rem;
+    background-color: #eae8ea;
+}
+
+.header {
+    width: 16rem;
+    height: 28.8rem;
+    overflow: hidden;
+}
+
+.wrap {
+    margin-top: -2.623rem;
+    width: 100%;
+    height: 13.6rem;
+    overflow: hidden;
+    background: url(http://oi98t21f4.bkt.clouddn.com/gbqq.JPG) 0 2.6rem no-repeat;
+    background-size: 100% 81%;
+
+}
+
+.video {
+    position: relative;
+    z-index: 2;
+}
+
+.main {
+    width: 100%;
+    height: 14.6rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/qqOK.png) 0 8rem no-repeat;
+    position: absolute;
+    z-index: 100;
+}
+
+.a {
+    animation: qq 10s infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+    /* Safari and Chrome */
+    -webkit-animation-duration: 10s;
+    -webkit-animation: qq 10s infinite;
+    -webkit-animation-direction: alternate;
+}
+
+@keyframes qq {
+    from {
+        top: 11rem;
+    }
+    to {
+        top: 3rem
+    }
+}
+
+@-webkit-keyframes qq /*Safari and Chrome*/
+{
+    from {
+        top: 11rem;
+    }
+    to {
+        top: 3rem
+    }
+}
+
+.main-2 {
+    position: absolute;
+    z-index: 102;
+    margin-left: 12rem;
+    width: 100%;
+    height: 13rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/qq2.png) no-repeat;
+}
+
+.b {
+
+    animation: qqq 19s infinite;
+    animation-direction: alternate;
+    animation-duration: 13s;
+
+    /* Safari and Chrome */
+    -webkit-animation-duration: 23s;
+    -webkit-animation: qqq 19s infinite;
+    -webkit-animation-direction: alternate;
+
+}
+
+@keyframes qqq {
+    from {
+        top: 11rem;
+    }
+    to {
+        top: 3rem;
+    }
+}
+
+@-webkit-keyframes qqq /*Safari and Chrome*/
+{
+    from {
+        top: 11rem;
+    }
+    to {
+        top: 3rem;
+    }
+}
+
+.main-3 {
+    z-index: 200;
+    position: relative;
+    margin-left: 5.5rem;
+    width: 28%;
+    height: 15rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/jian.png) no-repeat;
+    /*transform: rotateX(120deg);*/
+    /*-webkit-transform: rotateX(120deg); !* Safari and Chrome *!*/
+    /*-moz-transform: rotateX(120deg); !* Firefox *!*/
+    animation: qqqq 3s infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    /* Safari and Chrome */
+    -webkit-animation-duration: 3s;
+    -webkit-animation: qqqq 3s infinite;
+    -webkit-animation-direction: alternate;
+
+}
+
+@keyframes qqqq {
+    from {
+        top: 8.6rem;
+    }
+    to {
+        top: 17rem;
+    }
+}
+
+@-webkit-keyframes qqqq /*Safari and Chrome*/
+{
+    from {
+        top: 8.6rem;
+    }
+    to {
+        top: 17rem;
+    }
+}
+.subnav{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.nav {
+    font-family: cursive;
+    position: relative;
+    width: 16rem;
+    height: 500px;
+    margin: -12rem 4rem;
+    text-shadow: 61px 7px 23px #000000, -2px 2px 5px rgba(10, 6, 10, 0.59);
+}
+
+.footer {
+    width: 16rem;
+    height: 26rem;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+    height: 14.8rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/ms.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.content {
+    width: 100%;
+    height: 11.6rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/ms.jpg) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+.sidebar{
+    z-index: 200;
+    font-size: 40px;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgba(95, 82, 82, 0.3);
+    top: 90%;
+    left: 80%;
+    line-height: 100px;
+    text-align: center;
+}
+
+.scroll{
+    z-index: 201;
+    font-size: 80px;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: rgba(95, 82, 82, 0.3);
+    top: 70%;
+    left: 80%;
+    line-height: 100px;
+    text-align: center;
+
+
+    animation: scroll 2s infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    /* Safari and Chrome */
+    -webkit-animation-duration: 2s;
+    -webkit-animation: scroll 2s infinite;
+    -webkit-animation-direction: alternate;
+
+
+}
+
+@keyframes scroll {
+    from {
+        top: 47rem;
+    }
+    to {
+        top: 46rem;
+    }
+}
+
+@-webkit-keyframes  scroll /*Safari and Chrome*/
+{
+    from {
+        top: 47rem;
+    }
+    to {
+        top: 46rem;
+    }
+}
+.friendlink{
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    position:absolute ;
+    background: rgba(95, 82, 82, 0.5);
+    border-radius: 100%;
+}
+
+.guild{
+    z-index: 400;
+    position: relative;
+    margin-left: 5.5rem;
+    width: 28%;
+    height: 30rem;
+    background: url(http://oi98t21f4.bkt.clouddn.com/jian2.png) 0 12rem no-repeat;
+    /*transform: rotateX(120deg);*/
+    /*-webkit-transform: rotateX(120deg); !* Safari and Chrome *!*/
+    /*-moz-transform: rotateX(120deg); !* Firefox *!*/
+
+}
+.guild-1{
+    animation: guild 37s infinite;
+    animation-direction: alternate;
+    animation-duration: 37s;
+    /*animation-iteration-count:1;*/
+    /* Safari and Chrome */
+    -webkit-animation-duration: 37s;
+    -webkit-animation: guild 37s infinite;
+    -webkit-animation-direction: alternate;
+    /*-webkit-animation-iteration-count:1;*/
+
+}
+@keyframes guild {
+    from {
+        top: 0;
+    }
+    to {
+        top: -3rem;
+    }
+}
+
+@-webkit-keyframes  guild /*Safari and Chrome*/
+{
+    from {
+        top: 0;
+    }
+    to {
+        top: -3rem;
+    }
+}
